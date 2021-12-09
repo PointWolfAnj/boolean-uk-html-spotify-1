@@ -1,12 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <section id="logo">
+        <a href="https://www.spotify.com/">
+          <img
+            class="logo-main"
+            src="/assets/img/logo.svg"
+            alt="spotify logo"
+            height="40px"
+          />
+        </a>
+      </section>
+      <div id="upgrade-button">
+        <a href="https://www.spotify.com/premium/">
+          <button>UPGRADE</button>
+        </a>
+      </div>
+    </header>
+    <main>
+      <aside>
+        <section id="aside-menu">
+          <div class="menu-item">
+            <img src="/assets/img/home.svg" alt="home icon" height="25px" />
+            <a href="#">Home</a>
+          </div>
+          <div class="menu-item">
+            <img src="/assets/img/search.svg" alt="search icon" height="25px" />
+            <a href="#">Search</a>
+          </div>
+          <div class="menu-item">
+            <img
+              src="/assets/img/libreria.svg"
+              alt="library icon"
+              height="25px"
+            />
+            <a href="#">Your library</a>
+          </div>
+        </section>
+        <div id="playlist">
+          <h2>PLAYLIST</h2>
+          <div id="create-playlist">
+            <button>+</button>
+            <a href="#">Create Playlist</a>
+          </div>
+          <div id="user-playlists">
+            <ul>
+              <li><a href="#">Next Wave Neo-Soul</a></li>
+              <li><a href="#">Anime Eletronica</a></li>
+              <li><a href="#">Lofi Remix 2021</a></li>
+              <li><a href="#">Anime Gym Playlist</a></li>
+              <li><a href="#">Summer</a></li>
+              <li><a href="#">3.0 Final lock (hopefully)</a></li>
+              <li><a href="#">SAMM HENSHAW|COMPLETE</a></li>
+              <li><a href="#">Quaratine Wine Mixer</a></li>
+              <li><a href="#">Pure Pop Punk</a></li>
+              <li><a href="#">Lofi Coders</a></li>
+              <li><a href="#">Your Top Songs 2021</a></li>
+            </ul>
+          </div>
+        </div>
+        <div>&nbsp;</div>
+        <div id="aside-bottom">
+          <div id="download">
+            <img
+              src="/assets/img/download.svg"
+              alt="download icon"
+              height="15px"
+            />
+            <p id="app">Install app</p>
+          </div>
+
+          <div id="profile">
+            <a href="https://accounts.spotify.com/en/login">
+              <img
+                src="/assets/img/profile.svg"
+                alt="profile icon"
+                height="25px"
+              />
+              <h2 class="profile-user-name">Anojan Ahilan</h2>
+            </a>
+          </div>
+        </div>
+      </aside>
+      <div id="main-page">
+        <section id="category">
+          <div id="category-menu">
+            <ul>
+              <a href="#"><li>TRENDING</li></a>
+              <a href="#"><li>PODCAST</li></a>
+              <a href="#"><li>CHARTS</li></a>
+              <a href="#"><li>GENRES AND MOODS</li></a>
+              <a href="#"><li>BRAND NEW</li></a>
+              <a href="#"><li>DISCOVER</li></a>
+            </ul>
+          </div>
+        </section>
+        <section id="recent">
+          <h2>Recently played</h2>
+          <div id="recent-albums">
+            <div class="albums">
+              <img src="/assets/music/halsey.jpg" alt="halsey" height="160px" />
+              <h3 class="album-titles">If I Can't Have Love, I Want Power</h3>
+              <p class="artists">Halsey</p>
+            </div>
+            <div class="albums">
+              <img
+                src="/assets/music/easylife.jpeg"
+                alt="Easy Life"
+                height="160px"
+              />
+              <h3 class="album-titles">Life's a beach</h3>
+              <p class="artists">Easy Life</p>
+            </div>
+            <div class="albums">
+              <img
+                src="/assets/music/into-spiderverse.jpg"
+                alt="into-spiderverse"
+                height="160px"
+              />
+              <h3 class="album-titles">
+                Spider-man: Into the Spider-Verse (Soundtrack From & Inspired by
+                the Motion Picture)
+              </h3>
+              <p class="artists">Various Artists</p>
+            </div>
+            <div class="albums">
+              <img
+                src="/assets/music/Nothing-But-Thieves-.jpg"
+                alt="Nothing-But-Thieves-"
+                height="160px"
+              />
+              <h3 class="album-titles">Moral Panic</h3>
+              <p class="artists">Nothing But Thieves</p>
+            </div>
+            <div class="albums">
+              <img src="/assets/music/P5.png" alt="P5" height="160px" />
+              <h3 class="album-titles">Persona 5 Original Soundtrack</h3>
+              <p class="artists">Various Artists</p>
+            </div>
+            <div class="albums">
+              <img
+                src="/assets/music/Sil Sonic.jpg"
+                alt="Silk Sonic"
+                height="160px"
+              />
+              <h3 class="album-titles">An Evening With Silk Sonic</h3>
+              <p class="artists">Bruno Mars, Anderson .Paak, Silk Sonic</p>
+            </div>
+          </div>
+        </section>
+        <section id="suggestions">
+          <h2>Created for Anojan Ahilan</h2>
+          <p>The more you listen, the more accurate the suggestions.</p>
+          <div id="suggested-albums">
+            <div class="albums">
+              <img
+                src="/assets/img/radar.jpeg"
+                alt="release radar album"
+                height="160px"
+              />
+              <h3 class="album-titles">Release Radar</h3>
+            </div>
+            <div class="albums">
+              <img
+                src="/assets/img/mixdaily.jpeg"
+                alt="daily mix album cover"
+                height="160px"
+              />
+              <h3 class="album-titles">Daily Mix 1</h3>
+            </div>
+          </div>
+        </section>
+        <section id="popular-artists">
+          <h2>Most popular artists</h2>
+          <p>The more you listen, the more accurate the suggestions.</p>
+          <div id="suggested-artists">
+            <div class="artists-circles">
+              <img
+                src="/assets/music/Samm.jpg"
+                alt="Samm HENSHAW"
+                width="160px"
+              />
+              <h3 class="album-titles">Samm Hensaw</h3>
+            </div>
+            <div class="artists-circles">
+              <img
+                src="/assets/music/Only Sun.jpg"
+                alt="Only Sun"
+                width="160px"
+              />
+              <h3 class="album-titles">Only Sun</h3>
+            </div>
+            <div class="artists-circles">
+              <img src="/assets/music/Kazuo.jpg" alt="Kazuo" width="160px" />
+              <h3 class="album-titles">Kazuo</h3>
+            </div>
+            <div class="artists-circles">
+              <img
+                src="/assets/music/Nova Twins.jpg"
+                alt="Nova Twins"
+                width="160px"
+              />
+              <h3 class="album-titles">Nova Twins</h3>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div id="footer-left">
+        <div id="song-image">
+          <img src="/assets/music/JJK.jpg" alt="current song" width="40px" />
+        </div>
+        <div id="current-song">
+          <a href="#"><h3>Che Lingo, Hiroaki Tsutsumi</h3></a>
+          <a href="#"><p>Be Prepared</p></a>
+        </div>
+        <div id="left-icons">
+          <a href="#"
+            ><img
+              src="/assets/img/iconmonstr-favorite-3.svg"
+              alt="favourites icon"
+              height="15px"
+          /></a>
+          <a href="#"
+            ><img
+              src="/assets/img/iconmonstr-folder-1.svg"
+              alt="playlist icon"
+              height="15px"
+          /></a>
+        </div>
+      </div>
+      <div id="footer-middle">
+        <img
+          src="/assets/img/iconmonstr-media-control-55.svg"
+          alt="shuffle-button"
+          height="15px"
+        />
+        <img
+          src="/assets/img/rewind-svgrepo-com.svg"
+          alt="rewind-button"
+          height="15px"
+        />
+        <img
+          src="/assets/img/iconmonstr-media-control-48.svg"
+          alt="play-button"
+          height="15px"
+        />
+        <img
+          src="/assets/img/iconmonstr-arrow-31.svg"
+          alt="forward-button"
+          height="15px"
+        />
+        <img
+          src="/assets/img/iconmonstr-refresh-2.svg"
+          alt="refresh-button"
+          height="15px"
+        />
+      </div>
+      <div id="footer-right">
+        <img
+          src="/assets/img/iconmonstr-menu-2.svg"
+          alt="list-icon"
+          height="15px"
+        />
+        <img
+          src="/assets/img/iconmonstr-computer-1.svg"
+          alt="screen-icon"
+          height="15px"
+        />
+        <img
+          src="/assets/img/iconmonstr-audio-21.svg"
+          alt="volume-control-icon"
+          height="15px"
+        />
+        <img
+          src="/assets/img/horizontal-line-svgrepo-com.svg"
+          alt="sound bar"
+          width="30px"
+        />
+      </div>
+    </footer>
+  </body>
 </html>
